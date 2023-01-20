@@ -1,0 +1,80 @@
+.title
+{
+    width: 100%;
+    margin: 0px;
+    font-size: 30px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+#note
+{
+    font-size: 20px;
+    color: rgb(79, 79, 231)
+}
+
+#speed_div
+{
+    float: left;
+}
+
+#volume_div
+{
+    float: right
+}
+
+.diskimg
+{
+    width: 300px;
+    border-radius: 50%;
+}
+
+label
+{
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+
+button
+{
+    font-size: 25px;
+    background-color: crimson;
+    color: antiquewhite;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+#dot
+{
+    background-color: crimson ;
+    width: 10px;
+    height: 10px;
+    animation-name: dotanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dotanimation
+{
+    0% {margin-left: -200px; margin-top: -80px   }
+    25% {margin-left: 210px; margin-top: -80px   }
+    50% {margin-left: 210px; margin-top:20px   }
+    75% {margin-left: -200px; margin-top: 20px   }
+    100% {margin-left: -200px; margin-top: -80px   }
+}
+
+canvas
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+#mdisc
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
